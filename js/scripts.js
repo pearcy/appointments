@@ -8,6 +8,8 @@ $(document).ready(function () {
     $(".name").text(name);
     $(".description").text(description);
     $(".date").text(date);
+    // console.log(date);
+    console.log(date.value); 
 
 
     $("#output").show();
